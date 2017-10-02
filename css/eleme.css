@@ -1,0 +1,193 @@
+html{font-size:20px; }
+body{background-color:#F5F5F5;max-width:  750px;margin: auto; }
+svg path,svg rect{fill: #FF6700;}   
+
+@font-face {
+  font-family: 'iconfont';  /* project id 330796 */
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family: 'iconfont'; 
+    font-style:normal;
+    font-size:25px; 
+}
+
+
+/*头部*/
+.header{
+	display: block;
+	width:100%;max-width: 750px;
+  height: 5.25rem;
+	 margin: auto; position: fixed;
+	 top: 0;z-index: 18;
+	}
+
+
+
+.top{display: block; height: 6.25rem;background-color:#0095FC;display: block; padding:0 1rem; }
+.top .iconfont{color: #fff;}
+
+.add_weather
+,.top .nav ul
+,.option-1 ul
+,.add_weather
+,.option-2 .box
+,.option-2 .box-con
+,.Flash-sale h1
+,.menu_con
+,.good_choose h1
+,.good_choose_con
+,.roll_right,.roll_left{ display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; }
+
+/*地址 和 天气*/
+.add_weather{ }
+.add_weather { justify-content: space-between; padding:.5rem 0rem; line-height: 1.4rem;height:1.4rem;}
+.add_weather span{color: #fff;}
+.add_left .i1{color: #fff;font-size:.75rem;float: left; }
+.add_left .i2{font-size:.6rem;float: left;}
+.add_left span{display: inline-block;padding-right:.5rem;padding-left:.25rem;  width:7.5rem; font-size:1rem;color:#fff;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;float: left;}
+
+
+
+
+
+
+
+
+
+/*顶部的商品搜索框*/
+.top .search{display: block;padding:.2rem 0 .5rem; text-align: center;}
+.top .search input{text-align: center;display: block;width: 100%;border-radius:1rem;height:1.4rem;line-height: 1.4rem;}
+/*修改placeholder的颜色*/
+.top .search input::-webkit-input-placeholder{color:#888080;}
+.top .search input:-moz-placeholder {color: #888080;}
+.top .search input::-moz-placeholder {color: #ccc;}
+.top .search input:-ms-input-placeholder {color: #888080;}
+
+
+/*菜单*/
+.top .nav{  height: 2rem;display: block; margin: auto}
+.top .nav ul{width: 100%;justify-content: space-between;}
+.top .nav li{width: 20%;text-align: center;}
+.top .nav a{color: #fff;width: 100%;height:2rem;line-height:1.5rem;display: block;}
+
+
+
+/*主体内容*/
+.content{margin-top: 6.25rem;}
+.option-1{display: block;padding:0 .5rem; font-size: .6rem;background-color: #fff;margin-top: .5rem;padding-bottom:.7rem;   }
+.option-1 ul{justify-content:space-around;margin-top:.2rem;padding-bottom:.5rem;}
+.option-1 ul:nth-of-type(2){ margin-bottom:1rem;  }
+.option-1 ul a{text-align: center;display: block;}
+.option-1 ul a img{width:70%;height: auto;}
+.option-1 .swiper-container-horizontal>.swiper-pagination-bullets{ }
+
+.banner{height: 5rem;width: 100%;}
+.banner img{height: 5rem;width: 100%;}
+.swiper-container-horizontal>.swiper-pagination-bullets{bottom:0rem; }
+
+
+.option-2{background-color: #fff;padding-top:1rem;}
+.option-2 .box{align-items: center;  justify-content: space-between;}
+.option-2 .box-con{width: 50%;height: 4.85rem;max-height:7.85rem;  max-height:15rem; border-top: 1px solid #ccc;border-right: 1px solid #ccc; justify-content:space-between;align-items: center;padding:.5rem 0; }
+.option-2 .box-con div{padding-left:1rem; }
+.option-2 .box-con img{width:50%;max-height: 100%; padding-right:.5rem; }
+.option-2 h5{font-weight: 700;font-size: .75rem;}
+.option-2 p{font-size:.6rem;color: #a89f9f; }
+
+@media and screen {}
+
+
+
+/*限时抢购*/
+.Flash-sale{padding:.5rem .8rem;background-color: #fff;margin-top: .5rem; }
+.Flash-sale h1{font-weight: 700;justify-content: space-between;line-height: 1rem;margin-bottom:.6rem;}
+.Flash-sale h1 p{ font-weight:normal;color: #999;padding-right:1rem; font-size:.6rem;  }
+.Flash-sale h1 span{border-radius:3px;background-color: #000;color: #fff;width: 1.2rem;height: .9rem;display: inline-block;margin-right:2px;text-align: center;line-height: .9rem;}
+
+.Flash-sale .iconfont{  font-family: 'iconfont'; font-style:normal;font-size:16px; color: #000;}
+
+
+/*菜谱*/
+.menu{width: 100%;  overflow: auto;}   
+.menu_con {width: 150%;}
+.menu_con dl{font-size: .7rem;width:100%;height: auto;margin-right:.5rem;text-align: center; padding-bottom:.5rem; }
+.menu_con dt img{width:100%;height: auto; }
+.menu_con dd{font-size:.6rem;color: red; }
+.menu_con dd b{text-decoration:line-through;color: #999;}
+.menu .name{color: #333;padding-top:.3rem; }
+
+
+/*品质优选*/
+.good_choose{display: block;padding:1rem .5rem 0;margin-top: .5rem;background-color: #fff;}
+.good_choose h1{justify-content: space-between;}
+.good_choose h1 span{text-align: center;font-weight: 700;color: #666;}
+.good_choose_con{justify-content: space-between;padding:1rem .5rem .3rem; flex-wrap: wrap;}
+.good_choose_con dl{width: 25%;height: 10%;text-align: center;margin-bottom:.5rem; }
+.good_choose_con dt img{width:70%;height: auto;}
+.good_choose_con dd span{font-size: .6rem; border-radius: 5px;border: red 1px solid;padding:0 .2rem; }
+.good_choose_con dl:nth-of-type(2) dd span,.good_choose_con dl:nth-of-type(6) dd span{border: 1px solid #27A8E0;color: #27A8E0;}
+.good_choose .more_a{margin-right: .6rem;}
+
+
+
+/*领卷中心*/
+.roll_collar{padding:0 .8rem;background-color: #fff;margin-top: .5rem;}
+.roll_collar, .roll_collar a,.footer ul, .select_t{display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;justify-content: space-between;}
+.roll_left img ,.roll_right img{width:50%;height: auto;}
+.roll_collar a{align-items: center;border-right: 1px solid #ccc;padding:1rem 0; }
+.roll_collar a:last-child{border: 0;padding-left: .8rem;}
+.roll_collar p{font-size: .6rem;}
+
+
+/*商家推荐*/
+.bus_recom{background-color: #fff;height: auto;margin-top: .5rem; }
+.bus_recom h3{color: #999;height:1.8rem;line-height: 1.8rem;border-bottom: 1px solid #e1e1e1;padding-left:.8rem;}
+.recom_con .iconfont{color:#FFA500;font-size: 10px; }
+.recom_con .list{justify-content: space-between;border-top: 1px solid #ccc;display: block; height: 6rem;padding:.7rem 0;  }
+.recom_con a img{width:20%; height:60%; margin-right:.5rem; padding-left: .8rem; }
+.recom_con .con_r{width:65%;float: right;padding-right: .8rem;}
+
+/*商家名称*/
+.recom_con .name{font-weight: 700;margin-bottom: .3rem;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.recom_con .name i{background-color:#FFEB3B;font-weight:normal;border-radius: 5px;padding:0 3px;font-size: .6rem;color: #006DFF; }
+.recom_con .name span{float: right;border-radius: 5px;border: 1px solid #999;padding:0 1px;font-size: .6rem;font-weight: normal;}
+.recom_con .name p{width: 80%;float: left;}
+
+/*五星评价*/
+.list .rated {color: #808080;height:1rem;line-height: 1rem;}
+.list .rated b{color: red;margin-left:.2rem; }
+
+/*商品价格*/
+.recom_con .Price{color: #808080;font-size: .6rem;height: 1rem;line-height: 1rem;}
+.recom_con .Price p{float: left;display: inline-block;width: 180px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;width: 60%;}
+.recom_con .Price{border-bottom: 1px dashed #ccc;padding-bottom:3px; }
+.recom_con .Price span{float: right;width: 30%;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;margin-left: 1rem;}
+.list .line{color: #ccc;}
+.list p{width: 200px;max-width: 1000px; color: #808080;font-size: .6rem;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+
+/*普通优惠*/
+.list .wells{font-size: .6rem;color: #808080;margin-top: .2rem;height: 1.2rem;line-height: .8rem;}
+.list .wells i{border-radius: 5px;background-color:#D23D3D;color: #fff;padding:0 3px; margin-right: 3px;}
+
+/*新用户优惠*/
+.list .new_user{height: 1rem;margin-top:.5rem;}
+.list .new_user i{border-radius: 5px;background-color:#49C549;color: #fff;padding:0 3px; margin-right: 3px; }
+
+
+
+
+#TOP{width: 2.5rem;height: 2.5rem;line-height: 2.3rem;background-color: #fff;position: fixed;right: 0;bottom:5rem;box-shadow:2px 2px 3px #ccc;border-radius: 50%;text-align: center;border: 1px solid #ccc;display: none;}
+#TOP i{color: #20a7fc;}
+
+/*底部*/
+.footer{display: block;width:100%;max-width: 750px;margin: auto; margin: auto; height: 3rem;position:fixed;bottom: 0;background-color:#F7F7F7;border-top: 1px solid #ccc; z-index: 10;}
+.footer ul{padding:0 1rem; }
+.footer a{text-align: center;width: 22%;text-align: center;display: block;float: left;}
+.footer a i{height: 10px;display: block;}
+.footer .active{color: #0090FF;}

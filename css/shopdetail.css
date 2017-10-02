@@ -1,0 +1,54 @@
+html{font-size:20px; }
+body{background-color:#F5F5F5;max-width: 750px; }
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 330796 */
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family: 'iconfont'; 
+    font-style:normal;
+    font-size:1.25rem; 
+}
+
+/*公用*/
+.header{ display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+
+
+/*头部*/
+.header{height: 2.25rem;max-width: 750px;line-height: 2.25rem;color: #fff;background: #0095FC;justify-content: space-between;padding:0 .7rem; }
+.header span{flex:3;text-align: center;font-size:1rem; }
+.header i{flex: 1;font-size: 1.5rem;cursor:pointer;}
+
+
+
+/*主体内容*/
+/*活动与属性*/
+.content{margin-top: .5rem;}
+.content p{margin-top:.5rem;color: #666;}
+
+.event_attr{background: #fff;padding:1.2rem .8rem .8rem;}
+ .content .title{padding-bottom: .5rem;border-bottom: 1px solid #EEEEEE;font-size: .9rem;color: #666; }
+.event_attr .news span{background-color:#49C549;color: #fff; padding:1px 2px;border-radius: 5px;font-size: .6rem; margin-right:.3rem; }
+.event_attr .jian span{background-color:#D23D3D;color: #fff;padding:1px 2px;border-radius: 5px;font-size: .6rem; margin-right:.3rem;  }
+.event_attr .piao span{border: 1px solid #A9A9A9; color: #666; padding:1px 2px;border-radius: 5px;font-size: .6rem;margin-right:.3rem;  }
+
+/*商家信息*/
+.shop_info{background-color: #fff;margin-top: .8rem;padding: 1.2rem 1rem .8rem;}
+
+
+@media only screen and (max-width:320px){
+    .event_attr p{ font-size: .6rem; }
+}
+
+
+
+
+
+

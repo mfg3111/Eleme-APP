@@ -1,0 +1,64 @@
+html{font-size:20px; }
+body{background-color:#F5F5F5;max-width: 750px;}
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 330796 */
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family: 'iconfont'; 
+    font-style:normal;
+    font-size:25px; 
+}
+
+/*公用*/
+.header,#content{ display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+
+
+/*头部*/
+.header{height: 2.25rem;max-width: 750px;line-height: 2.25rem;color: #fff;background: #0095FC;justify-content: space-between;padding:0 .7rem; }
+.header span{flex:3;text-align: center;font-size:1rem; }
+.header i{flex: 1;font-size: 1.5rem;cursor:pointer;}
+
+
+/*主体内容*/
+#content{display: block; width: 100%;height: 100%; text-align: center;max-width: 750px;}
+#content .login{display: block; text-align: center; max-width: 750px;width: 100%;height:13.1rem;position:absolute;top: 0;}
+#content .login p{font-size: 1rem;color: #777;}
+#content .login a{display: block;width: 50%;margin: auto;height: 2rem;line-height: 2rem;border-radius: 5px;background-color:#56D176;color: #fff; margin-top: 1rem;}
+
+
+
+
+
+
+
+/*底部*/
+.footer ul{display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.footer{display: block;width:100%;max-width: 750px;margin: auto; margin: auto; height: 3rem;position:fixed;bottom: 0;background-color:#F7F7F7;border-top: 1px solid #ccc; z-index: 100;}
+.footer ul{padding:0 1rem; }
+.footer a{text-align: center;width: 25%;text-align: center;display: block;float: left;}
+.footer a i{height: 10px;display: block;}
+.footer .active{color: #0090FF;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

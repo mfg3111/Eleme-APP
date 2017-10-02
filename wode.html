@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta name="apple-mobile-web-sapp-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+   <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/wode.css">
+    <script>
+        window.onload=function (){
+           var back=document.getElementById('back');
+            back.onclick=function (){
+                    window.history.back(-1); 
+            }
+        }
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="header">
+        <i class="iconfont" id='back'>&#xe63b;</i>
+        <span>我的</span>
+        <i></i>
+    </div>
+    
+    <div class="content">
+        <!--个人信息、人物头像-->
+        <a class="pic" href="login.html">
+            <span href="###"><img src="img/pic2.jpg" alt=""></span>
+            <div class="info">
+                <h1>登录/注册</h1>
+                <p><i class="iconfont">&#xe610;</i>登录享受等多特权</p>
+            </div>
+            <i class="iconfont">&#xe8b2;</i>
+        </a>
+        <!--个人信息选项-->
+        <div class="nav">
+            <a href="index.html"><i class='iconfont'>&#xe60d;</i><br/>余额</a>
+            <a href="index.html"><i class='iconfont'>&#xe629;</i><br/>优惠</a>
+            <a href="index.html"><i class='iconfont'>&#xe65e;</i><br/>积分</a>
+        </div>
+        <!--个人信息列表-->
+        <div class="list">
+            <div class="list_t">
+                <a href="dingdan.html">
+                    <i class='iconfont l_icon'>&#xe633;</i>
+                    <span>我的订单<i class='iconfont'>&#xe8b2;</i></span>
+                </a>
+                <a href="index.html" class='jfsc'>
+                    <i class='iconfont l_icon'>&#xe618;</i>
+                    <span>积分商城<i class='iconfont'>&#xe8b2;</i></span>
+                </a>
+                <a href="index.html" class='vip'>
+                    <i class='iconfont l_icon'>&#xe630;</i>
+                    <span>饿了么会员卡<i class='iconfont'>&#xe8b2;</i></span>
+                </a>
+            </div>
+            <div class="list_b">
+                <a href="index.html">
+                    <i class='iconfont l_icon'>&#xe610;</i>
+                    <span>服务中心<i class='iconfont'>&#xe8b2;</i></span>
+                </a>
+                <a href="index.html">
+                    <i class='iconfont l_icon'>&#xe639;</i>
+                    <span>下载饿了么APP<i class='iconfont'>&#xe8b2;</i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!--底部选项-->
+    <div class="footer">
+        <ul>
+            <a href="index.html"><i class='iconfont'>&#xe639;</i><br/>外卖</a>
+            <a href="faxian.html"><i class='iconfont'>&#xe60b;</i><br/>发现</a>
+            <a href="dingdan.html"><i class='iconfont'>&#xe633;</i><br/>订单</a>
+            <a href="wode.html" class="active"><i class='iconfont'>&#xe631;</i><br/>我的</a>
+        </ul>
+    </div>
+    <script src="js/www.js"></script>
+</body>
+</html>

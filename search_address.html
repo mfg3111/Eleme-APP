@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索查找地址</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta name="apple-mobile-web-sapp-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/search_address.css">
+    <script>
+        window.onload =function (){
+            var back=document.getElementById('back');
+            back.onclick=function (){
+                window.history.back(-1);
+            }
+            
+            
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="head_title">
+            <i class="iconfont" id='back'>&#xe63b;</i>
+            <span>选择地址</span>
+            <i></i>
+        </div>
+        <div class="head_search">
+            <input type="text" placeholder="请输入地址">
+        </div>
+    </div>
+    <script src="js/www.js"></script>
+</body>
+</html>

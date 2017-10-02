@@ -1,0 +1,129 @@
+html{font-size:20px; }
+body{background-color:#F5F5F5;max-width: 750px; }
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 330796 */
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family: 'iconfont'; 
+    font-style:normal;
+    font-size:25px; 
+}
+
+/*公用*/
+.header,.jifen_mill
+,.jifen_l_b,.jifen_r_t
+,.jifen_r_c,.jifen_r_b
+,.food_tj h1{ display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+
+
+/*头部*/
+.header{height: 2.25rem;max-width: 750px;line-height: 2.25rem;color: #fff;background: #0095FC;justify-content: space-between;padding:0 .7rem; }
+.header span{flex:3;text-align: center;font-size:1rem; }
+.header i{flex: 1;font-size: 1.5rem;cursor:pointer;}
+
+
+
+/*积分商城*/
+.jifen_mill{width: 100%;justify-content: space-between;background-color: #fff;border-bottom: 1px solid #ccc;}
+.jifen_mill h1{font-size: .8rem;}
+.jifen_mill p{font-size: .6rem;color: #999;}
+
+
+.jifen_l{width: 50%;border-right: 1px solid #ccc;}
+.jifen_l_t{padding-left:.7rem;width: 100%;}
+.jifen_l_t div{margin-left: .7rem;}
+.jifen_l_t h1{color:#FFAD00;margin-top: .7rem; }
+.jifen_l_t img{width:65%;height: auto;}
+
+.jifen_l_b{justify-content: space-between;padding:.7rem; align-items: center;}
+.jifen_l_b h1{color: #FF14AE;}
+.jifen_l_b{border-top: 1px solid #ccc;}
+.jifen_l_b img{width: 30%;height:100%;margin-right:1rem; }
+
+.jifen_r{width: 50%;}
+.jifen_r_t h1{color:#FF0000;}
+.jifen_r_c{border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+.jifen_r_c h1{color:#0095FC;}
+.jifen_r_b h1{color:#008000;}
+.jifen_r img{width:32%;height:100%;}
+.jifen_r_t,.jifen_r_c,.jifen_r_b{justify-content: space-between;padding:1rem; align-items:center;}
+
+
+
+
+/*美食推荐*/
+.food_tj{height:auto;background-color: #fff;margin-top:.5rem;padding-top: .5rem;padding-bottom:.5rem;}
+.food_tj h1,
+.food_tj .tj_con,
+.every_love_con
+{ display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+
+.food_tj h1{width: 100%;height: 1.5rem;display: block;text-align: center;align-items: center;}
+.food_tj span{color:red;font-size: .8rem;}
+.food_tj .line{font-size: 1rem; color: #000;margin-top: -2rem; display: inline-block;margin:0 .5rem; }
+
+.food_tj h1 b{font-size:.8rem;font-weight: 700;color: #444;}
+.food_tj .small_title{text-align: center; color: #999;padding-top:.3rem; }
+
+.food_tj .tj_con{ justify-content: space-between;padding:.7rem 1rem; }
+.tj_con dl{width:29%;height:50%;text-align: center;}
+.tj_con dl img{width: 100%;height: auto;}
+.tj_con dl b{color: red;}
+ .more{width: 100%;text-align: center;}
+ .more a{height: 1.5rem;color: #999;}
+ .more i{font-size: 16px;}
+
+
+
+
+/*大家都在吃*/
+.every_love{background-color: #fff;margin-top:.5rem;padding:.5rem .7rem;   }
+.every_love h1{text-align: center;height: 1.5rem;}
+.every_love h1 span{font-size: .8rem;font-weight: 700;}
+.every_love h1 i{font-size:.8rem;margin:0 .5rem; }
+.every_love h1 b{font-size:.8rem;color: orangered;}
+.every_love .small_title{text-align: center;width: 100%;color: #999;}
+
+.every_love_con{margin-top:.5rem;justify-content: space-between; }
+.every_love_con .pic{width:15%;}
+.every_love_con .pic img{width:100%;height:auto;border-radius: 100%;}
+.every_love_right{width: 100%;height: auto;margin-left: .8rem;margin-right: .8rem;}
+.every_love_right dl{line-height: 1.2rem;margin-bottom: 1.2rem;padding-left:.5rem; }
+.every_love_right dt{font-weight: 600;}
+.every_love_right dd{color: #666;font-size: .6rem;}
+.every_love_details{padding:0 .5rem ;height: auto;background-color: #F7F7F7;}
+.every_love_details h3{font-size: .6rem;color: #777;padding:.3rem 0;  }
+.every_love_details h3 i{font-size:.6rem;padding-right: .3rem;}
+.every_love_details h3 span{float: right;}
+.every_love_details .pic_box {border-bottom:1px solid #ccc;padding-bottom:.3rem;  }
+.every_love_details .pic_box img{width:25%;height: auto;}
+.every_love_details .documentary{padding:.2rem 0 .5rem; }
+.documentary b{color: red;}
+.documentary a{border-radius: 5px;border: 1px solid #0095FC;color: #0095FC;padding:0 .2rem;float: right; font-size: .6rem;}
+
+.every_love .more{padding:.8rem 0 .2rem; }
+
+
+
+/*空出来的*/
+.space{height: 5rem;}
+
+
+
+
+
+/*底部*/
+.footer ul{display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.footer{display: block;width:100%;max-width: 750px;margin: auto; margin: auto; height: 3rem;position:fixed;bottom: 0;background-color:#F7F7F7;border-top: 1px solid #ccc; z-index: 100;}
+.footer ul{padding:0 1rem; }
+.footer a{text-align: center;width: 25%;text-align: center;display: block;float: left;}
+.footer a i{height: 10px;display: block;}
+.footer .active{color: #0090FF;}

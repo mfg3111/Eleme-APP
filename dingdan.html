@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发现</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta name="apple-mobile-web-sapp-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/dingdan.css">
+    <script>
+        window.onload=function (){
+           var back=document.getElementById('back');
+           var content=document.getElementById('content');
+            var login = content.getElementsByClassName('login')[0];
+            
+            back.onclick=function (){
+                    window.history.back(-1); 
+            }
+            
+           //算出浏览器可视区域的高度
+              var win_height = document.documentElement.clientHeight; 
+            //获得元素本身的高度
+            var div=login.offsetHeight;
+            //算出div元素应该距离上面的高度
+            var re = (win_height- div)/2;
+           
+            //让login元素移动
+            login.style.marginTop=re+"px";
+        
+        }
+    </script>
+</head>
+<body>
+  <!--svg loding动画-->
+    
+   <!--头部-->
+    <div class="header">
+        <i class="iconfont" id='back'>&#xe63b;</i>
+        <span>订单</span>
+        <i></i>
+    </div>
+    <div id="content">
+        <div class="login">
+            <img src="img/login.png" alt="">
+            <p>登录后查看外卖订单</p>
+            <a href="login.html">立即登录</a>
+        </div>
+    </div>
+    
+    
+    <!--底部选项-->
+    <div class="footer">
+        <ul>
+            <a href="index.html"><i class='iconfont'>&#xe639;</i><br/>外卖</a>
+            <a href="faxian.html"><i class='iconfont'>&#xe60b;</i><br/>发现</a>
+            <a href="dingdan.html" class="active"><i class='iconfont'>&#xe633;</i><br/>订单</a>
+            <a href="wode.html"><i class='iconfont'>&#xe631;</i><br/>我的</a>
+        </ul>
+    </div>
+    
+    <script src="js/www.js"></script>
+</body>
+</html>
